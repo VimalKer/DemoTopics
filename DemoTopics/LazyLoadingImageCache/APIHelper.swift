@@ -10,7 +10,7 @@ import Foundation
 struct ModelImages:Decodable{
     var id:String!
     var author:String!
-    var url:String!
+    var download_url:String!
 }
 
 

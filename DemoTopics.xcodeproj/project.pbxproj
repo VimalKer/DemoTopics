@@ -17,6 +17,7 @@
 		18D7D3D72C9E9A450051F72C /* ProgramaticConstrainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D7D3D62C9E9A450051F72C /* ProgramaticConstrainVC.swift */; };
 		18EA19682CA2E02700BD5EDA /* LazyLoadingAsyncVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA19672CA2E02700BD5EDA /* LazyLoadingAsyncVC.swift */; };
 		18EA196C2CA2E27500BD5EDA /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA196B2CA2E27500BD5EDA /* APIHelper.swift */; };
+		18EA196F2CA2EA5E00BD5EDA /* CustomImageview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA196E2CA2EA5E00BD5EDA /* CustomImageview.swift */; };
 		18EDDA932C9BDAA100A48E2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EDDA922C9BDAA100A48E2B /* AppDelegate.swift */; };
 		18EDDA952C9BDAA100A48E2B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EDDA942C9BDAA100A48E2B /* SceneDelegate.swift */; };
 		18EDDA972C9BDAA100A48E2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EDDA962C9BDAA100A48E2B /* ViewController.swift */; };
@@ -39,6 +40,7 @@
 		18D7D3D62C9E9A450051F72C /* ProgramaticConstrainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramaticConstrainVC.swift; sourceTree = "<group>"; };
 		18EA19672CA2E02700BD5EDA /* LazyLoadingAsyncVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyLoadingAsyncVC.swift; sourceTree = "<group>"; };
 		18EA196B2CA2E27500BD5EDA /* APIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
+		18EA196E2CA2EA5E00BD5EDA /* CustomImageview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageview.swift; sourceTree = "<group>"; };
 		18EDDA8F2C9BDAA100A48E2B /* DemoTopics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoTopics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18EDDA922C9BDAA100A48E2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18EDDA942C9BDAA100A48E2B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -88,10 +90,19 @@
 		18EA19662CA2DFB600BD5EDA /* LazyLoadingImageCache */ = {
 			isa = PBXGroup;
 			children = (
+				18EA196D2CA2E9F900BD5EDA /* CustomImageview */,
 				18EA19672CA2E02700BD5EDA /* LazyLoadingAsyncVC.swift */,
 				18EA196B2CA2E27500BD5EDA /* APIHelper.swift */,
 			);
 			path = LazyLoadingImageCache;
+			sourceTree = "<group>";
+		};
+		18EA196D2CA2E9F900BD5EDA /* CustomImageview */ = {
+			isa = PBXGroup;
+			children = (
+				18EA196E2CA2EA5E00BD5EDA /* CustomImageview.swift */,
+			);
+			path = CustomImageview;
 			sourceTree = "<group>";
 		};
 		18EDDA862C9BDAA100A48E2B = {
@@ -219,6 +230,7 @@
 				18EDDAAA2C9BDB3100A48E2B /* HomeVC.swift in Sources */,
 				18EDDA972C9BDAA100A48E2B /* ViewController.swift in Sources */,
 				18D7D3D72C9E9A450051F72C /* ProgramaticConstrainVC.swift in Sources */,
+				18EA196F2CA2EA5E00BD5EDA /* CustomImageview.swift in Sources */,
 				18EDDA932C9BDAA100A48E2B /* AppDelegate.swift in Sources */,
 				189749702C9D679E0062CCDD /* DispatchQueueSemaphore.swift in Sources */,
 				18EDDA952C9BDAA100A48E2B /* SceneDelegate.swift in Sources */,
